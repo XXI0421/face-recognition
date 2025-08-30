@@ -1,0 +1,1 @@
+CONFIG = {'scale': 1.1, 'minNeigh': 5}

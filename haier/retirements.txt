@@ -1,0 +1,13 @@
+# ---------- 后端 ----------
+flask>=2.3.2               # Web API
+insightface==0.7.3         # 高精度人脸识别 + 关键点检测
+opencv-python>=4.8.0       # 图像处理 / 人脸对齐
+numpy>=1.24.0              # 数值计算
+onnxruntime                # InsightFace 推理后端（CPU 版本已够用）
+
+# ---------- Streamlit 控制面板 ----------
+streamlit>=1.28.0          # 可视化配置面板
+requests                   # 与后端通信
+
+# ---------- PyQt6 实时预览 ----------
+PyQt6>=6.5.0               # 跨平台 GUI
